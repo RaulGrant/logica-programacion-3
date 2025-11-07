@@ -71,7 +71,7 @@ function calcularFactorial() {
 document.addEventListener('DOMContentLoaded', function() {
     const inputElement = document.getElementById('numero');
     if (inputElement) {
-        inputElement.addEventListener('keypress', function(event) {
+        inputElement.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 calcularFactorial();
             }
